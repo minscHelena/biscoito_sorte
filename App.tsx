@@ -54,7 +54,7 @@ export default function App() {
       ) : (                     //se estiver como falso, aparece o botão - essa tela aparee primeiro
         <View style={styles.container}>
           <Text style={styles.titulo}>Biscoito da Sorte</Text>
-          <Text style={styles.subtitulo}>Veja o que o biscoitinho tem para te falar!</Text>
+          <Text style={styles.subtitulo}>Veja o que a Bixie tem para te falar!</Text>
           <Image 
             source={require('./assets/biscoito_fechado.png')}
             style={styles.imgFechada}
